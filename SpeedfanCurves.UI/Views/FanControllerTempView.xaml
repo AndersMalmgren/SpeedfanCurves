@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="SpeedfanCurves.UI.Views.FanControllerTempView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpeedfanCurves.UI.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <WrapPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Label>Min temp</Label>
+                <TextBox x:Name="MinTemp"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label>Maxtemp</Label>
+                <TextBox x:Name="MaxTemp"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label>Hysteresis</Label>
+                <TextBox x:Name="Hysteresis"></TextBox>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</UserControl>

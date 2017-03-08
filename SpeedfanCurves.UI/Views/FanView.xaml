@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="SpeedfanCurves.UI.Views.FanView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpeedfanCurves.UI.Views"
+             mc:Ignorable="d">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox x:Name="Active" Content="{ Binding Name}" Width="100"></CheckBox>
+            <Label Margin="10 0 0 0">Min</Label>
+            <TextBox x:Name="Min" Width="30"></TextBox>
+            <Label Margin="10 0 0 0">Max</Label>
+            <TextBox x:Name="Max" Width="30"></TextBox>
+            <CheckBox x:Name="Variate" Margin="10 0 0 0">Auto. Variate</CheckBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

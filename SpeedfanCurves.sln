@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedfanCurves.UI", "SpeedfanCurves.UI\SpeedfanCurves.UI.csproj", "{04893D6B-A190-44FF-AC7C-2287C383015D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedfanCurves.Core", "SpeedfanCurves.Core\SpeedfanCurves.Core.csproj", "{650EF6F5-6089-4CC2-B657-2DFDB425FC00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04893D6B-A190-44FF-AC7C-2287C383015D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04893D6B-A190-44FF-AC7C-2287C383015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04893D6B-A190-44FF-AC7C-2287C383015D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04893D6B-A190-44FF-AC7C-2287C383015D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650EF6F5-6089-4CC2-B657-2DFDB425FC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650EF6F5-6089-4CC2-B657-2DFDB425FC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650EF6F5-6089-4CC2-B657-2DFDB425FC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650EF6F5-6089-4CC2-B657-2DFDB425FC00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
